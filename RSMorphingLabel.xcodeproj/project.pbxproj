@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302E674D197C08A000C1B678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E674C197C08A000C1B678 /* main.m */; };
+		302E6750197C08A000C1B678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E674F197C08A000C1B678 /* AppDelegate.m */; };
+		302E6753197C08A000C1B678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E6752197C08A000C1B678 /* ViewController.m */; };
+		302E6756197C08A000C1B678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E6754197C08A000C1B678 /* Main.storyboard */; };
+		302E6758197C08A000C1B678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302E6757197C08A000C1B678 /* Images.xcassets */; };
+		302E6764197C08A000C1B678 /* RSMorphingLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E6763197C08A000C1B678 /* RSMorphingLabelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302E675E197C08A000C1B678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E673F197C08A000C1B678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302E6746197C08A000C1B678;
+			remoteInfo = RSMorphingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302E6747197C08A000C1B678 /* RSMorphingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSMorphingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E674B197C08A000C1B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302E674C197C08A000C1B678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		302E674E197C08A000C1B678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		302E674F197C08A000C1B678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		302E6751197C08A000C1B678 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		302E6752197C08A000C1B678 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		302E6755197C08A000C1B678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302E6757197C08A000C1B678 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		302E675D197C08A000C1B678 /* RSMorphingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSMorphingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E6762197C08A000C1B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302E6763197C08A000C1B678 /* RSMorphingLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMorphingLabelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302E6744197C08A000C1B678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E675A197C08A000C1B678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302E673E197C08A000C1B678 = {
+			isa = PBXGroup;
+			children = (
+				302E6749197C08A000C1B678 /* RSMorphingLabel */,
+				302E6760197C08A000C1B678 /* RSMorphingLabelTests */,
+				302E6748197C08A000C1B678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302E6748197C08A000C1B678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302E6747197C08A000C1B678 /* RSMorphingLabel.app */,
+				302E675D197C08A000C1B678 /* RSMorphingLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302E6749197C08A000C1B678 /* RSMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				302E674E197C08A000C1B678 /* AppDelegate.h */,
+				302E674F197C08A000C1B678 /* AppDelegate.m */,
+				302E6751197C08A000C1B678 /* ViewController.h */,
+				302E6752197C08A000C1B678 /* ViewController.m */,
+				302E6754197C08A000C1B678 /* Main.storyboard */,
+				302E6757197C08A000C1B678 /* Images.xcassets */,
+				302E674A197C08A000C1B678 /* Supporting Files */,
+			);
+			path = RSMorphingLabel;
+			sourceTree = "<group>";
+		};
+		302E674A197C08A000C1B678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302E674B197C08A000C1B678 /* Info.plist */,
+				302E674C197C08A000C1B678 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		302E6760197C08A000C1B678 /* RSMorphingLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				302E6763197C08A000C1B678 /* RSMorphingLabelTests.m */,
+				302E6761197C08A000C1B678 /* Supporting Files */,
+			);
+			path = RSMorphingLabelTests;
+			sourceTree = "<group>";
+		};
+		302E6761197C08A000C1B678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302E6762197C08A000C1B678 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302E6746197C08A000C1B678 /* RSMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302E6767197C08A000C1B678 /* Build configuration list for PBXNativeTarget "RSMorphingLabel" */;
+			buildPhases = (
+				302E6743197C08A000C1B678 /* Sources */,
+				302E6744197C08A000C1B678 /* Frameworks */,
+				302E6745197C08A000C1B678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSMorphingLabel;
+			productName = RSMorphingLabel;
+			productReference = 302E6747197C08A000C1B678 /* RSMorphingLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302E675C197C08A000C1B678 /* RSMorphingLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302E676A197C08A000C1B678 /* Build configuration list for PBXNativeTarget "RSMorphingLabelTests" */;
+			buildPhases = (
+				302E6759197C08A000C1B678 /* Sources */,
+				302E675A197C08A000C1B678 /* Frameworks */,
+				302E675B197C08A000C1B678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302E675F197C08A000C1B678 /* PBXTargetDependency */,
+			);
+			name = RSMorphingLabelTests;
+			productName = RSMorphingLabelTests;
+			productReference = 302E675D197C08A000C1B678 /* RSMorphingLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302E673F197C08A000C1B678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = closure;
+				TargetAttributes = {
+					302E6746197C08A000C1B678 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					302E675C197C08A000C1B678 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 302E6746197C08A000C1B678;
+					};
+				};
+			};
+			buildConfigurationList = 302E6742197C08A000C1B678 /* Build configuration list for PBXProject "RSMorphingLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302E673E197C08A000C1B678;
+			productRefGroup = 302E6748197C08A000C1B678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302E6746197C08A000C1B678 /* RSMorphingLabel */,
+				302E675C197C08A000C1B678 /* RSMorphingLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302E6745197C08A000C1B678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E6756197C08A000C1B678 /* Main.storyboard in Resources */,
+				302E6758197C08A000C1B678 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E675B197C08A000C1B678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302E6743197C08A000C1B678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E6753197C08A000C1B678 /* ViewController.m in Sources */,
+				302E6750197C08A000C1B678 /* AppDelegate.m in Sources */,
+				302E674D197C08A000C1B678 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E6759197C08A000C1B678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E6764197C08A000C1B678 /* RSMorphingLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302E675F197C08A000C1B678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302E6746197C08A000C1B678 /* RSMorphingLabel */;
+			targetProxy = 302E675E197C08A000C1B678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		302E6754197C08A000C1B678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302E6755197C08A000C1B678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302E6765197C08A000C1B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		302E6766197C08A000C1B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302E6768197C08A000C1B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RSMorphingLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		302E6769197C08A000C1B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RSMorphingLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		302E676B197C08A000C1B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSMorphingLabel.app/RSMorphingLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSMorphingLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		302E676C197C08A000C1B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSMorphingLabel.app/RSMorphingLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSMorphingLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302E6742197C08A000C1B678 /* Build configuration list for PBXProject "RSMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E6765197C08A000C1B678 /* Debug */,
+				302E6766197C08A000C1B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302E6767197C08A000C1B678 /* Build configuration list for PBXNativeTarget "RSMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E6768197C08A000C1B678 /* Debug */,
+				302E6769197C08A000C1B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		302E676A197C08A000C1B678 /* Build configuration list for PBXNativeTarget "RSMorphingLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E676B197C08A000C1B678 /* Debug */,
+				302E676C197C08A000C1B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302E673F197C08A000C1B678 /* Project object */;
+}
