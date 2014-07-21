@@ -13,6 +13,7 @@
 		302E6756197C08A000C1B678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E6754197C08A000C1B678 /* Main.storyboard */; };
 		302E6758197C08A000C1B678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302E6757197C08A000C1B678 /* Images.xcassets */; };
 		302E6764197C08A000C1B678 /* RSMorphingLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E6763197C08A000C1B678 /* RSMorphingLabelTests.m */; };
+		302E676F197C08C600C1B678 /* RSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E676E197C08C600C1B678 /* RSMorphingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		302E675D197C08A000C1B678 /* RSMorphingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSMorphingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		302E6762197C08A000C1B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302E6763197C08A000C1B678 /* RSMorphingLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMorphingLabelTests.m; sourceTree = "<group>"; };
+		302E676D197C08C600C1B678 /* RSMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMorphingLabel.h; sourceTree = "<group>"; };
+		302E676E197C08C600C1B678 /* RSMorphingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMorphingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				302E6754197C08A000C1B678 /* Main.storyboard */,
 				302E6757197C08A000C1B678 /* Images.xcassets */,
 				302E674A197C08A000C1B678 /* Supporting Files */,
+				302E676D197C08C600C1B678 /* RSMorphingLabel.h */,
+				302E676E197C08C600C1B678 /* RSMorphingLabel.m */,
 			);
 			path = RSMorphingLabel;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 		302E673F197C08A000C1B678 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RS;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = closure;
 				TargetAttributes = {
@@ -216,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302E6753197C08A000C1B678 /* ViewController.m in Sources */,
+				302E676F197C08C600C1B678 /* RSMorphingLabel.m in Sources */,
 				302E6750197C08A000C1B678 /* AppDelegate.m in Sources */,
 				302E674D197C08A000C1B678 /* main.m in Sources */,
 			);

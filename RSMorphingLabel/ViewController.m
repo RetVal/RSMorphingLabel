@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "RSMorphingLabel.h"
 
 @interface ViewController ()
-            
-
+@property (nonatomic, strong, readonly) NSString *text;
+@property (nonatomic, assign, readonly) NSInteger i;
+@property (weak, nonatomic) IBOutlet RSMorphingLabel *label;
 @end
 
 @implementation ViewController
@@ -25,4 +27,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString *)text {
+    NSArray *textArray = @[@"Swift", @"Objective-C", @"iPhone", @"iPad", @"Mac Mini", @"MacBook Pro", @"Mac Pro", @"iMac", @"MacBook Air"];
+    if (_i >= [textArray count]) {
+        _i = 0;
+    }
+    return textArray[_i++];
+}
+
+
+- (IBAction)buttonPressed:(id)sender {
+    [_label setText:[self text]];
+}
 @end
