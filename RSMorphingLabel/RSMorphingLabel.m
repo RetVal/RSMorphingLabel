@@ -121,7 +121,6 @@ typedef enum : NSUInteger {
     for (NSInteger i = 0; i < length; i++) {
         unichar character = [textToDraw characterAtIndex:i];
         CGSize charSize = [[NSString stringWithFormat:@"%c", character] sizeWithFont:[self font]];
-        NSLog(@"charSize -> %@", NSStringFromCGSize(charSize));
         [charRects addObject:[NSValue valueWithCGRect:CGRectMake(leftOffset, 0, charSize.width, charSize.height)]];
         leftOffset += charSize.width;
     }
@@ -150,9 +149,7 @@ typedef enum : NSUInteger {
     CGFloat fontSize = [[self font] pointSize];
     NSMutableArray *limbo = [[NSMutableArray alloc] init];
     NSArray *originRects = [self rectsOfEachCharacter:__originText];
-//    NSLog(@"originRects -> %@", originRects);
     NSArray *newRects = [self rectsOfEachCharacter:[self text]];
-//    NSLog(@"newRects -> %@", newRects);
     CGFloat targetLeftOffset = 0.0f;
     NSInteger length = [__originText length];
     for (NSUInteger i = 0; i < length; i++) {
@@ -349,7 +346,6 @@ typedef enum : NSUInteger {
             [result setDiffType:__RSMoriphingCharacterDiffAddType];
         }
         [diffResults addObject:result];
-        NSLog(@"%@", result);
     }
     
     [diffResults enumerateObjectsUsingBlock:^(__RSMoriphingCharacterDiffResult *obj, NSUInteger idx, BOOL *stop) {
@@ -362,7 +358,6 @@ typedef enum : NSUInteger {
                 break;
         }
     }];
-    NSLog(@"lhs -> %@, rhs -> %@", lhs, rhs);
     return diffResults;
 }
 
